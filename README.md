@@ -15,3 +15,4 @@
 3. 整个token扔进去。给一个[token创建传送门](https://github.com/settings/tokens)。原则上给个`workflow`权限就行.
 4. 修改url。格式为：`https://api.github.com/repos/你的用户名/你的仓库名/actions/workflows/你的.yml文件名/enable`
 5. 别忘了给云函数搞个定时运行。60天掉一次嘛，一个月跑一次就够了。
+6. 我这边的是腾讯云上的写法，扔的时候注意改成符合你用的云函数规范的写法。
